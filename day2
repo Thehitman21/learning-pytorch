@@ -1,0 +1,12 @@
+# tensor can be used to encode the output and the input of the model as well as the model parameters
+#tensor can run on gpu tensor.to(device)
+#device='cuda' if torch.cuda.is_available() elif 
+import torch 
+import numpy as np
+
+#initiatin a tensor
+
+#similar to the real matrix calculation the sequence of the calculation is important and the inner product of two 1d tensor cannot be calculated through the following procedure都是矩阵运算
+y1 = tensor @ tensor.T
+y2 = tensor.matmul(tensor.T)
+print(y2)
