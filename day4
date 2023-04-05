@@ -1,0 +1,9 @@
+#trying to figure out how to create a transformer model for my algorithm how to use the data to train and test this???
+#the view dependent effect of the color 
+i envisioned something that the same set of latent code interract with different query creates a difference in the output which is also kind like the view dependent effect
+and by training our model inference differnent scene based on the same latent code kind of reminds me of given the first part of the sentence and the model has learned some underlying scene representation and is good at gussing what could be at a new position this is why we use transformer and feed many data to it to make it guess.
+this is just my assumption for now
+the ray-embedding 
+and the positional query
+and the vanila tranformer sturcture
+and the ability with few input and generalization ability within categories.
